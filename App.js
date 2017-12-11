@@ -352,3 +352,38 @@ class DarboScreen5 extends React.Component {
     )
   }
 }
+class AsmeniniaiScreen extends React.Component {
+  static navigationOptions = {
+    title: 'Asmeniniai',
+  };
+  render() {
+    return (
+      <View>
+      <Text style={{color:'red',textAlign:'center'}}>Asmeniniai igudziai!</Text>
+      <Text style={{color:'red',textAlign:'center'}}> Gimtoji Kalba: Lietuviu</Text>
+      <Text style={{color:'red',textAlign:'center'}}> Uzsienio Kalba1: Rusu </Text>
+      <Text style={{color:'red',textAlign:'center'}}> Uzsienio Kalba2: Anglu </Text>
+      </View>
+    )
+  }
+}
+
+
+const SimpleApp = StackNavigator({
+  Home: { screen: HomeScreen },
+  Pagrindinis: { screen: PagrindinisScreen },
+  Pagrindinis2: { screen: PagrindinisScreen2 },
+  Pagrindinis3: { screen: PagrindinisScreen3 },
+   Pagrindinis4: { screen: PagrindinisScreen4 },
+    Pagrindinis5: { screen: PagrindinisScreen5 },
+  
+  Darbo: {screen: DarboScreen},
+   Darbo2: {screen: DarboScreen2},
+    Darbo3: {screen: DarboScreen3},
+     Darbo4: {screen: DarboScreen4},
+      Darbo5: {screen: DarboScreen5},
+  Asmeniniai: {screen: AsmeniniaiScreen},
+  Call: {screen: CallScreen}
+});
+
+export default SimpleApp;
