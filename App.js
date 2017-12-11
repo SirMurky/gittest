@@ -103,3 +103,173 @@ class HomeScreen extends React.Component {
   }
 }
 
+class PagrindinisScreen3 extends React.Component {
+  static navigationOptions = {
+    title: 'Pagrindinis',
+  };
+  render() {
+        const {navigate} = this.props.navigation; 
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}>KANDIDATAS</Text>
+    <Image
+        source={{ uri: 'https://si.wsj.net/public/resources/images/BN-QI584_1019cl_J_20161019001039.jpg' }}
+        style={{ height: 350, width: 400 }}
+      />
+    <Text style={{color:'red',textAlign:'center'}}> Vardas: Robertas </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Pavarde: Kafka </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Amzius: 27 </Text>
+     <Button
+            onPress={() => navigate('Darbo3')}
+            title="Darbo patirtis"
+          />
+          <Button
+            onPress={() => navigate('Asmeniniai')}
+            title="Asmeniniai gebejimai"
+          />
+          
+          <Button onPress={() => navigate('Call')}
+          title="Pakviesti i darbo pokalbi"
+          />
+          </View>
+    )
+
+  }
+}
+
+class PagrindinisScreen2 extends React.Component {
+  static navigationOptions = {
+    title: 'Pagrindinis',
+  };
+  render() {
+        const {navigate} = this.props.navigation; 
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}>KANDIDATAS</Text>
+     <Image
+        source={{ uri: 'https://www.gannett-cdn.com/-mm-/c26eee5c92614372f5d461d9215ac9f1e1f0bea8/c=0-164-4096-2478&r=1280x720/local/-/media/2017/05/05/USATODAY/USATODAY/636295954979961452-EPA-FILE-FRANCE-USA-PEOPLE-86898216.JPG' }}
+        style={{ height: 350, width: 400 }}
+      />
+    <Text style={{color:'red',textAlign:'center'}}> Vardas: Povilas </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Pavarde: Mikalauskas </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Amzius: 54 </Text>
+     <Button
+            onPress={() => navigate('Darbo2')}
+            title="Darbo patirtis"
+          />
+          <Button
+            onPress={() => navigate('Asmeniniai')}
+            title="Asmeniniai gebejimai"
+          />
+          
+          <Button onPress={() => navigate('Call')}
+          title="Pakviesti i darbo pokalbi"
+          />
+          </View>
+    )
+
+  }
+}
+
+class PagrindinisScreen extends React.Component {
+  static navigationOptions = {
+    title: 'Pagrindinis',
+  };
+  render() {
+        const {navigate} = this.props.navigation; 
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}>KANDIDATAS</Text>
+    <Image
+        source={{ uri: 'https://static.pexels.com/photos/428341/pexels-photo-428341.jpeg' }}
+        style={{ height: 350, width: 400 }}
+      />
+    <Text style={{color:'red',textAlign:'center'}}> Vardas: Petras </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Pavarde: Mikolauskas </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Amzius: 28 </Text>
+     <Button
+            onPress={() => navigate('Darbo')}
+            title="Darbo patirtis"
+          />
+          <Button
+            onPress={() => navigate('Asmeniniai')}
+            title="Asmeniniai gebejimai"
+          />
+          
+          <Button onPress={() => navigate('Call')}
+          title="Pakviesti i darbo pokalbi"
+          />
+          </View>
+    )
+
+  }
+}
+
+class PagrindinisScreen4 extends React.Component {
+  static navigationOptions = {
+    title: 'Pagrindinis',
+  };
+  render() {
+        const {navigate} = this.props.navigation; 
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}>KANDIDATAS</Text>
+      <Image
+        source={{ uri: 'http://dreamicus.com/data/face/face-04.jpg' }}
+        style={{ height: 350, width: 400 }}
+      />
+    
+    <Text style={{color:'red',textAlign:'center'}}> Vardas: Jonas </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Pavarde: Kaziukas </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Amzius: 28 </Text>
+     <Button
+            onPress={() => navigate('Darbo4')}
+            title="Darbo patirtis"
+          />
+          <Button
+            onPress={() => navigate('Asmeniniai')}
+            title="Asmeniniai gebejimai"
+          />
+          
+          <Button onPress={() => navigate('Call')}
+          title="Pakviesti i darbo pokalbi"
+          />
+          </View>
+    )
+
+  }
+}
+
+class PagrindinisScreen5 extends React.Component {
+  static navigationOptions = {
+    title: 'Pagrindinis',
+  };
+  render() {
+        const {navigate} = this.props.navigation; 
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}>KANDIDATAS</Text>
+    <Image
+        source={{ uri: 'https://news.osu.edu/assets/notface4.jpg' }}
+        style={{ height: 350, width: 400 }}
+      />
+    <Text style={{color:'red',textAlign:'center'}}> Vardas: Antanas </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Pavarde: Karaliautis </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Amzius: 45 </Text>
+     <Button
+            onPress={() => navigate('Darbo5')}
+            title="Darbo patirtis"
+          />
+          <Button
+            onPress={() => navigate('Asmeniniai')}
+            title="Asmeniniai gebejimai"
+          />
+          
+          <Button onPress={() => navigate('Call')}
+          title="Pakviesti i darbo pokalbi"
+          />
+          </View>
+    )
+
+  }
+}
