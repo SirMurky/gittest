@@ -273,3 +273,82 @@ class PagrindinisScreen5 extends React.Component {
 
   }
 }
+class DarboScreen extends React.Component {
+  static navigationOptions = {
+    title: 'Darbo',
+  
+  };
+  render() {
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo ekranas!</Text>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo patirtis: Anksciau nedirbes </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Issilavinimas: Karoliniskiu gimnazija </Text>
+    </View>
+    )
+  }
+}
+
+class DarboScreen2 extends React.Component {
+  static navigationOptions = {
+    title: 'Darbo',
+  
+  };
+  render() {
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo ekranas!</Text>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo patirtis: Danske Bank ( IT Support) || Barclays ( IT Support)</Text>
+    <Text style={{color:'red',textAlign:'center'}}> Issilavinimas: Karoliniskiu gimnazija || VIKO</Text>
+    </View>
+    )
+  }
+}
+
+class DarboScreen3 extends React.Component {
+  static navigationOptions = {
+    title: 'Darbo',
+  
+  };
+  render() {
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo ekranas!</Text>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo patirtis: VMI || Viko </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Issilavinimas: VGTU || VU </Text>
+    </View>
+    )
+  }
+}
+
+class DarboScreen4 extends React.Component {
+  static navigationOptions = {
+    title: 'Darbo',
+  
+  };
+  render() {
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo ekranas!</Text>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo patirtis: Anksciau nedirbes </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Issilavinimas: Karoliniskiu gimnazija </Text>
+    </View>
+    )
+  }
+}
+
+class DarboScreen5 extends React.Component {
+  static navigationOptions = {
+    title: 'Darbo',
+  
+  };
+  render() {
+    return (
+      <View>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo ekranas!</Text>
+    <Text style={{color:'red',textAlign:'center'}}> Darbo patirtis: Anksciau nedirbes </Text>
+    <Text style={{color:'red',textAlign:'center'}}> Issilavinimas: Karoliniskiu gimnazija </Text>
+    </View>
+    )
+  }
+}
